@@ -1,3 +1,7 @@
+---
+sidebar: false
+---
+
 # 点点滴滴
 
 ::: warning 心路历程

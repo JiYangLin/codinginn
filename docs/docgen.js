@@ -20,6 +20,10 @@ var path = require('path');
    
    # 文件夹名称
    
+   ---
+   sidebar: false
+   ---
+
    ::: tip 文件列表
    [page1](./文件1.md)
    
@@ -34,7 +38,7 @@ var path = require('path');
 
 function GenReadMe(dirpath,dirname){
     console.log("正在处理:" + dirpath)
-    let data = '[返回](../)\n\n# ' + dirname + '\n\n'
+    let data = '---\nsidebar: false\n---\n\n[返回](../)\n\n# ' + dirname + '\n\n'
     fileArray = []
     dirArray = []
     files = fs.readdirSync(dirpath)

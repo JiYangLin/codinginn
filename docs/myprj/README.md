@@ -1,3 +1,7 @@
+---
+sidebar: false
+---
+
 # 我的项目
 
 ::: warning PackSocket
