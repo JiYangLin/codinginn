@@ -35,7 +35,6 @@ var path = require('path');
    :::
 
 */
-
 function GenReadMe(dirpath,dirname){
     console.log("正在处理:" + dirpath)
     let data = '---\nsidebar: false\n---\n\n[返回](../)\n\n# ' + dirname + '\n\n'
@@ -55,7 +54,7 @@ function GenReadMe(dirpath,dirname){
 
     if(fileArray.length > 0)
     {
-        data += "::: tip 文件列表\n"
+        data += "::: tip ===文件列表===\n"
         for(var i = 0 ; i < fileArray.length;++i)
         {
             data += "[" + fileArray[i] + "](./" + fileArray[i] +")\n\n"
@@ -65,7 +64,7 @@ function GenReadMe(dirpath,dirname){
 
     if(dirArray.length > 0)
     {
-        data += "::: warning 目录列表\n"
+        data += "::: warning ===目录列表===\n"
         for(var i = 0 ; i < dirArray.length;++i)
         {
             data += "[" + dirArray[i] + "](./" + dirArray[i] +"/)\n\n"
@@ -99,5 +98,5 @@ function GenDoc(dirpath,dirname){
 }
 
 
-GenDoc("D:\\note","note")
+GenDoc("D:\\编程笔记","编程笔记")
 console.log("=====处理完成=====")
