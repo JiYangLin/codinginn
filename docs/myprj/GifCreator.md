@@ -4,8 +4,10 @@
 
 [项目源码链接](https://github.com/JiYangLin/GifCreator) 
 
+[程序下载](https://github.com/JiYangLin/GifCreator/blob/master/GifCreator.7z)
+
 使用C#和python结合开发。
-WPF界面，opencvsharp进行视频的解码，imageio进行gif的生成。
+WPF界面，opencvsharp进行视频的解码，imageio进行gif的生成，PythonMagick进行ico生成。
 
 
 ## 使用说明
@@ -38,4 +40,8 @@ WPF界面，opencvsharp进行视频的解码，imageio进行gif的生成。
 
 ::: warning GIF处理
 点击修改图像大小按钮，可以选择一个GIF图像，输入要转换的尺寸，将生成缩放尺寸后的图像，图像为：gif图像名+--resize.gif
+:::
+
+::: warning ICO处理
+点击转换为ICO文件按钮，可以选择一个PNG或者JPG图像，选择要转换的尺寸，将生成缩放尺寸后的图像，图像为：图像名+----result.ico
 :::

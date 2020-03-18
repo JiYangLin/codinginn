@@ -4,6 +4,8 @@
 
 [项目源码链接](https://github.com/JiYangLin/FaceRec) 
 
+[程序下载](https://github.com/JiYangLin/FaceRec/blob/master/FaceRec.7z)
+
 网上的一个opencv人脸识别算法，这里用C#界面，opencvcharp撸的，能够进行人脸训练和识别，当个小玩具还是不错的。
 
 
