@@ -1,6 +1,6 @@
 module.exports = {
-    title: '编码小栈',
-    description: '欢迎光临编码小栈',
+    title: 'CodingInn',
+    description: '欢迎光临',
     head: [
         ['link', {
             rel: 'icon',

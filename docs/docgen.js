@@ -35,9 +35,11 @@ var path = require('path');
    :::
 
 */
-function GenReadMe(dirpath,dirname){
+function GenReadMe(dirpath,dirname,hasreturn){
     console.log("正在处理:" + dirpath)
-    let data = '---\nsidebar: false\n---\n\n[返回](../)\n\n# ' + dirname + '\n\n'
+    let data = '---\nsidebar: false\n---\n\n# ' + dirname + '\n\n'
+	if(hasreturn) data = '---\nsidebar: false\n---\n\n[返回](../)\n\n# ' + dirname + '\n\n'
+	
     fileArray = []
     dirArray = []
     files = fs.readdirSync(dirpath)
@@ -92,11 +94,11 @@ function GenDoc(dirpath,dirname){
             ModifyMd(filedir)
         }
         if(stats.isDirectory()){
-            GenDoc(filedir,filename)
+            GenDoc(filedir,filename,true)
         }        
     });
 }
 
 
-GenDoc("D:\\编程笔记","编程笔记")
+GenDoc("D:\\编程笔记","编程笔记",false)
 console.log("=====处理完成=====")
