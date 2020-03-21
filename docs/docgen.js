@@ -84,8 +84,8 @@ function ModifyMd(pathname)
     data = fs.readFileSync(pathname, 'utf-8');
     fs.writeFileSync(pathname, "[返回](./)\n\n" + data);
 }
-function GenDoc(dirpath,dirname){
-    GenReadMe(dirpath,dirname)
+function GenDoc(dirpath,dirname,hasreturn){
+    GenReadMe(dirpath,dirname,hasreturn)
     files = fs.readdirSync(dirpath)
     files.forEach((filename)=>{ 
         var filedir = path.join(dirpath, filename);
