@@ -1,0 +1,12 @@
+npm install -g vuepress
+
+npm init -y
+
+package.json修改：
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+
+https://www.vuepress.cn/
+
