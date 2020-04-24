@@ -10,6 +10,6 @@ features:
   details: 以前偶尔在csdn写写博客，现在写的很少了，偶尔有时间就记录在这里了。
 - title: 我的项目
   details: 一些放在github上的有明确功能的小项目，在这里罗列和详细描述下。
-footer:  JiYangLin | 2020-3-21
+footer:  JiYangLin | 2020-4-7
 ---
 CodingInn |  [京ICP备20007835号-1](http://beian.miit.gov.cn/)

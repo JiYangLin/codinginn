@@ -100,5 +100,5 @@ function GenDoc(dirpath,dirname,hasreturn){
 }
 
 
-GenDoc("D:\\编程笔记","编程笔记",false)
+GenDoc("D:\\dist\\note","编程笔记",false)
 console.log("=====处理完成=====")
