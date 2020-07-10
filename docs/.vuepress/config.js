@@ -17,7 +17,6 @@ module.exports = {
         nav: [
           { text: '主页', link: '/' },
           { text: '编程笔记', link: '/note/' },
-          { text: '点点滴滴', link: '/alittle/' },
           { text: '我的项目', link: '/myprj/' },
           { text: 'github', link: 'https://github.com/JiYangLin' },
         ],
